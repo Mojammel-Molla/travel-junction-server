@@ -13,4 +13,4 @@ const postSchema = new Schema({
   createdAt: { type: Date, default: Date.now },
 })
 
-export const postModel = model<TPost>('Post', postSchema)
+export const PostModel = model<TPost>('Post', postSchema)
